@@ -178,11 +178,11 @@ heroView (width, height) { hero } =
     src =
       case state of
         Stand ->
-          "/imgs/tim/" ++ dirFolder ++ "/stand/" ++ toString hero.spriteNum ++ ".png"
+          "imgs/tim/" ++ dirFolder ++ "/stand/" ++ toString hero.spriteNum ++ ".png"
         Run ->
-          "/imgs/tim/" ++ dirFolder ++ "/run/" ++ toString hero.spriteNum ++ ".png"
+          "imgs/tim/" ++ dirFolder ++ "/run/" ++ toString hero.spriteNum ++ ".png"
         Jump ->
-          "/imgs/tim/" ++ dirFolder ++ "/jump/" ++ toString hero.spriteNum ++ ".png"
+          "imgs/tim/" ++ dirFolder ++ "/jump/" ++ toString hero.spriteNum ++ ".png"
   in
     image 125 152 src
       |> toForm
